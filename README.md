@@ -2,7 +2,7 @@
 
 A clickable keyboard of math, logic, and other special characters that lives in your Obsidian sidebar. Click a symbol and it's inserted at your cursor, so you never have to search the web for ∅, ∈, or ∀ again.
 
-![Symbol sidebar](screenshot.png)
+![Symbol sidebar](assets/image.png)
 
 ## What it does
 
