@@ -1,0 +1,10 @@
+{
+  "id": "math-symbol-keyboard",
+  "name": "Math Symbol Keyboard",
+  "version": "1.0.0",
+  "minAppVersion": "1.7.2",
+  "description": "Insert math and logic symbols from a clickable sidebar with custom symbol groups.",
+  "author": "Natan Guzinski",
+  "authorUrl": "https://github.com/NateTheGrappler",
+  "isDesktopOnly": false
+}

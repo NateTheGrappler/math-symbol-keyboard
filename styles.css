@@ -1,0 +1,82 @@
+/* ---------- Sidebar / popup ---------- */
+.symbol-picker-sidebar {
+  padding: 0 12px 12px;
+}
+
+.symbol-picker-heading {
+  margin: 0.8em 0 0.4em;
+  color: var(--text-muted);
+}
+
+.symbol-picker-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(2.4rem, 1fr));
+  gap: 6px;
+}
+
+.symbol-picker-btn {
+  height: 2.4rem;
+  font-size: 1.25em;
+  padding: 0;
+  cursor: pointer;
+}
+
+.symbol-picker-empty {
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+/* ---------- Settings page ---------- */
+.symbol-picker-settings-group {
+  border: 1px solid var(--background-modifier-border);
+  border-radius: var(--radius-m);
+  padding: 4px 12px;
+  margin-bottom: 10px;
+}
+
+.symbol-picker-settings-group > summary {
+  cursor: pointer;
+  padding: 8px 0;
+  font-weight: var(--font-semibold);
+}
+
+/* Group-name and symbol rows have no label, so hide the empty label column
+   and let the inputs use the full width. */
+.symbol-picker-group-row .setting-item-info,
+.symbol-picker-settings-row .setting-item-info {
+  display: none;
+}
+
+.symbol-picker-group-row .setting-item-control,
+.symbol-picker-settings-row .setting-item-control {
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 6px;
+  width: 100%;
+}
+
+.symbol-picker-group-input {
+  flex: 1 1 12em;
+}
+
+.symbol-picker-ch-input {
+  width: 3.5em;
+  flex: 0 0 3.5em;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.symbol-picker-name-input {
+  flex: 1 1 10em;
+}
+
+.symbol-picker-desc-input {
+  flex: 2 1 14em;
+}
+
+.symbol-picker-json {
+  width: 100%;
+  min-height: 300px;
+  font-family: var(--font-monospace);
+  font-size: var(--font-smaller);
+}
